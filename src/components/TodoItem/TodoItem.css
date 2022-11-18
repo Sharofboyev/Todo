@@ -1,0 +1,41 @@
+.TodoItem {
+    color: #DAA520;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 2px solid darkgreen;
+}
+
+.headerAndContent {
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background: transparent;
+    border: none;   
+}
+
+button:active {
+    background-color: cadetblue;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p{
+    color: #DAA520
+}
